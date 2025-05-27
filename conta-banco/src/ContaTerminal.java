@@ -13,12 +13,12 @@ public class ContaTerminal {
         double saldo;
         // Exibir mensagem de boas-vindas
         System.out.println("===================================");
-        System.out.println("          BANCO JWoinaroski              ");
+        System.out.println("          BANCO JWOINAROSKI          ");
         System.out.println("===================================");
         System.out.println("Bem-vindo ao Banco Jwoinaroski!");
         // Criar um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
-        // Ler o número da conta-
+        // Ler o número da conta
         System.out.println("Por favor, digite o número da conta:");
         numero = scanner.nextInt();
         System.out.println("Por favor, digite o número da agência:");
@@ -32,16 +32,13 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo da conta:");
         // Ler o saldo da conta
         saldo = scanner.nextDouble();
-        // Exibir a mensagem de conta criada com sucesso
+        // Exibir mensagem de confirmação
+        System.out.println("===================================");
         System.out.println("Conta criada com sucesso!");
-        System.out.println("Número da conta: " + numero);
-        System.out.println("Agência: " + agencia);
-        System.out.println("Nome do cliente: " + nomeCliente);
-        System.out.println("Saldo: R$ " + saldo);
         // Fechar o scanner
         scanner.close();
         // Exibir mensagem de encerramento
-        System.out.println("Obrigado por usar o nosso Banco Jwoinaroski ! " + nomeCliente);
+        System.out.println("Olá " + nomeCliente + ",obrigado por ciar uma conta em nosso banco,sua agencia é " + agencia + " e o número da conta é " + numero + ". Seu saldo atual é R$ " + saldo + " já está disponivel para saque.");
         System.out.println("===================================");
     
     }
