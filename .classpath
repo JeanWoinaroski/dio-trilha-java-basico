@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="conta-banco/src"/>
+	<classpathentry kind="src" path="DesafioControleFluxo/src"/>
+	<classpathentry kind="src" path="DesafioDio/src"/>
+	<classpathentry excluding="Exemplos-de-For/src/" kind="src" path="estruturas de repetiçao"/>
+	<classpathentry kind="src" path="estruturas de repetiçao/Exemplos-de-For/src"/>
+	<classpathentry kind="src" path="ExemplosDeTryExecpt/src"/>
+	<classpathentry kind="src" path="TrabalhoLigarCandidato/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
