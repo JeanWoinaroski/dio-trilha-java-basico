@@ -6,6 +6,7 @@ public class No <T> {
 	
 	public No(T conteudo) {
 		this.proximoNo = null;
+		
 		this.conteudo = conteudo;
 		
 	
